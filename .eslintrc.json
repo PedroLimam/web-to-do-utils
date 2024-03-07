@@ -41,6 +41,12 @@
         "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
         "alphabetize":{"order": "asc", "caseInsensitive": true },
         "newlines-between": "always"
-    }]
+    }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "projectDependencies": "false"
+      }
+    ]
   }
 }
