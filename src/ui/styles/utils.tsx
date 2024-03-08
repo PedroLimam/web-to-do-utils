@@ -63,5 +63,7 @@ export const LinkRoute = styled.p`
     font-size: 14px;
     color: #fff;
     font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 `
