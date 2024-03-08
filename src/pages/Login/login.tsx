@@ -18,8 +18,7 @@ export default function Login(){
         >
 
           <Title>
-            Seja bem vindo, inicie seu cadastro na plataforma e
-            aproveite as funcionalidades para organizar seu dia a dia.
+            Bem vindo, faça seu login abaixo.
           </Title>
 
           <Input.Root>
