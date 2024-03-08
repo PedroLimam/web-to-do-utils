@@ -8,7 +8,7 @@ export interface InputProps {
 export function InputIcon({ icon: Icon, className }: InputProps) {
   return (
    <>
-    {Icon && <Icon className={`absolute bottom-2 left-1 ${className}`} />}
+    {Icon && <Icon className={`absolute bottom-2 left-2 ${className}`} />}
    </>
   )
 }
