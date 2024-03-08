@@ -6,7 +6,12 @@ export const Title = styled.h1`
   text-align: center;
   color: #fff;
   font-size: 22px;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
+
+  @media (max-width: 500px) {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
 `;
 
 export const ContainerCenter = styled.section`
@@ -26,13 +31,15 @@ export const BoxForm = styled.div`
   width: 440px;
   height: 500px;
 
+  @media (max-width: 500px) {
+    width: 90%
+  }
+
   & > form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
   }
 
   .input__box{
