@@ -3,6 +3,7 @@ import { Input } from '@/components/InputGeneral';
 import { BoxForm, ContainerCenter as Container, LinkRoute, Title } from '@/ui/styles/utils';
 import { Mail } from 'lucide-react';
 import { useForm } from 'react-hook-form';
+import { Link } from 'react-router-dom';
 
 export default function Login(){
   const { handleSubmit: submit } = useForm();
@@ -32,7 +33,7 @@ export default function Login(){
           </Input.Root>
 
           <LinkRoute>
-            Esqueceu a senha? <a href='/change-password'>Renovar senha</a>
+            Esqueceu a senha? <Link to='/change-password'>Renovar senha</Link>
           </LinkRoute>
 
           <Button bg="#2E457E" size="project">
@@ -40,7 +41,7 @@ export default function Login(){
           </Button>
 
           <LinkRoute>
-            Não possui uma conta? <a href='/register'>Fazer cadastro</a>
+            Não possui uma conta? <Link to='/register'>Fazer cadastro</Link>
           </LinkRoute>
         </form>
       </BoxForm>
